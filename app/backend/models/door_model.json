@@ -1,0 +1,35 @@
+{
+  "feature": "vol_area",
+  "threshold": 16016.0,
+  "train_normal": [
+    15252.0,
+    15890.0
+  ],
+  "train_abnormal": [
+    16142.0,
+    18230.0
+  ],
+  "gap_width": 252.0,
+  "open": {
+    "threshold": 16119.0,
+    "train_normal": [
+      15676.0,
+      15890.0
+    ],
+    "train_abnormal": [
+      16348.0,
+      18162.0
+    ]
+  },
+  "close": {
+    "threshold": 15898.0,
+    "train_normal": [
+      15252.0,
+      15654.0
+    ],
+    "train_abnormal": [
+      16142.0,
+      18230.0
+    ]
+  }
+}

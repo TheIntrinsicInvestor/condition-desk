@@ -1,0 +1,5 @@
+{
+  "m": 5.0,
+  "C": 728780381.5,
+  "notes": "m=5 (fixed), C=7.2878e8; LOO MAPE 2.71% over 64 training files"
+}

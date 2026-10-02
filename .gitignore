@@ -1,0 +1,24 @@
+node_modules/
+.next/
+out/
+__pycache__/
+*.pyc
+.playwright-mcp/
+.DS_Store
+.env
+
+# Built output: the Dockerfile regenerates it from app/frontend
+app/backend/static/
+
+# Organisers' own materials (briefs, info pack, labels). Not ours to
+# redistribute publicly, and the spec says they already have them.
+reference/
+
+# Internal working notes, kept local only
+CLAUDE.md
+HISTORY.md
+DECISION.md
+PRODUCT.md
+DESIGN.md
+docs/
+.impeccable/

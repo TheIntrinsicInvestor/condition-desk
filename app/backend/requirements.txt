@@ -1,0 +1,10 @@
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.22
+# Pinned: the rail model is a pickle, so scikit-learn and numpy must match the
+# versions it was fitted with or unpickling misbehaves.
+scikit-learn==1.2.2
+numpy==1.26.4
+scipy==1.11.4
+pandas==2.2.3
+openpyxl==3.1.5
